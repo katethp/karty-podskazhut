@@ -41,6 +41,10 @@ body {
   font-family: var(--main-font);
 }
 
+.header {
+  padding-block-start: 10%;
+}
+
 .heading {
   font-family: var(--accent-font, "STIX Two Text", serif);
   text-align: center;
@@ -77,6 +81,8 @@ body.theme_dark {
   justify-content: space-between;
   padding-block-start: 20px;
   padding-block-end: 20px;
+  padding-inline-start: 5vi;
+  padding-inline-end: 5vi;
   border-top: 1px solid currentColor;
   border-bottom: 1px solid currentColor;
 
@@ -92,7 +98,6 @@ body.theme_dark {
   font-style: normal;
   font-weight: 600;
   line-height: 90%;
-  margin-block-start: 0.67em;
 }
 
 .header__theme-toggler {
